@@ -8,7 +8,7 @@ export default class AboutMe extends React.Component {
 
   render() {
     return (
-      <div id="about-me" className="section-container">
+      <div id="about-me" refs="about01" className="section-container">
         <AboutMeHeader />
         <AboutMeContentContainer />
       </div>
